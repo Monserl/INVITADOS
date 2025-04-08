@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Organización de Invitados</h1>
+        <div class="panel">
+            <h2>Lista de Invitados</h2>
+            <div id="guest-list" class="guest-container"></div>
+        </div>
+        
+        <div class="panel">
+            <h2>Resultado</h2>
+            <div id="result" class="result-container">
+                <p class="initial-message">Presiona "Buscar Todos los Pares" para comenzar</p>
+            </div>
+            <div class="button-group">
+                <button id="find-all" class="btn">Buscar Todos los Pares</button>
+                <div class="nav-buttons">
+                    <button id="prev-pair" class="nav-btn" disabled>Anterior</button>
+                    <button id="next-pair" class="nav-btn" disabled>Siguiente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
